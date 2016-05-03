@@ -1,0 +1,7 @@
+[slack-info]
+token = ""
+channel_id = ""
+
+[google-account]
+name = ""
+pass = ""
