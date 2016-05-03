@@ -8,12 +8,49 @@
 
 ## Usage
 
+```
+$ slack-summary -h                                                                                                                                                (git)-[master]
+Usage of slack-summary:
+  -c string
+        slack-summary config file path.(Short)
+  -conf string
+        slack-summary config file path.
+  -d string
+        Day of history get.(Short) (default "2016/05/04")
+  -date string
+        Day of history get. (default "2016/05/04")
+  -v    Print version information and quit.(Short)
+  -version
+        Print version information and quit.
+```
+
+Fill the item of toml file
+
+```bash
+[slack-info]
+token = ""
+channel_id = ""
+
+[google-account]
+name = ""
+pass = ""
+```
+Create executable file ＆ execute
+
+```bash
+$ cd path/to/slack-summary/src
+$ go build
+$ ./src -c path/to/conf.toml
+```
+
 ## Install
 
 To install, use `go get`:
 
 ```bash
 $ go get -d github.com/futabooo/slack-summary
+$ cd path/to/slack-sumary/src
+$ glide install
 ```
 
 ## Contribution
