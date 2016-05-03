@@ -4,7 +4,7 @@
 
 ## Description
 `slack-summary` provides a way to send mail, posting of one day of a specific channel
-![](https://goo.gl/photos/pKZgaQpwcd4jp6LH8)
+![screenshot](https://raw.github.com/wiki/futabooo/slack-summary/image/screenshot_2016-05-03_16_58_50.png)
 
 ## Usage
 
