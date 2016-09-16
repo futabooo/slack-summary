@@ -1,5 +1,6 @@
 # slack-summary
 
+[![wercker status](https://app.wercker.com/status/4ed9d03c38a916fc909a4aff3484eee7/m/master "wercker status")](https://app.wercker.com/project/byKey/4ed9d03c38a916fc909a4aff3484eee7)
 
 
 ## Description
@@ -9,7 +10,7 @@
 ## Usage
 
 ```
-$ slack-summary -h                                                                                                                                                (git)-[master]
+$ slack-summary -h
 Usage of slack-summary:
   -c string
         slack-summary config file path.(Short)
