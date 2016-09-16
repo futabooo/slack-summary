@@ -12,17 +12,17 @@ build:
     # golint step!
     - wercker/golint
 
-    # Build the project
-    - script:
-        name: go build
-        code: |
-          go build ./...
-
-    # Test the project
-    - script:
-        name: go test
-        code: |
-          go test ./...
+#    # Build the project
+#    - script:
+#        name: go build
+#        code: |
+#          go build ./...
+#
+#    # Test the project
+#    - script:
+#        name: go test
+#        code: |
+#          go test ./...
   after-steps:
     - futabooo/slack-notifier@1.2.4:
         url: $SLACK_URL
