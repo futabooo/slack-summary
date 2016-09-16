@@ -8,6 +8,7 @@ import (
 	"net/smtp"
 )
 
+// CreateMailHeader ...
 func CreateMailHeader(from, to, title string) map[string]string {
 	header := make(map[string]string)
 	header["From"] = from
@@ -19,9 +20,10 @@ func CreateMailHeader(from, to, title string) map[string]string {
 	return header
 }
 
+// SendMail ...
 func SendMail(conf ConfToml, mailBody string) {
-	var host string = "smtp.gmail.com"
-	var addr string = "smtp.gmail.com:587"
+	const host string = "smtp.gmail.com"
+	const addr string = "smtp.gmail.com:587"
 
 	// Set up authentication information.
 	auth := smtp.PlainAuth(

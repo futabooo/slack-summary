@@ -1,4 +1,7 @@
 package app
 
-const Name string = "slack-summary"
-const Version string = "0.1.0"
+// Name and Version
+const (
+	Name    string = "slack-summary"
+	Version string = "0.1.0"
+)
