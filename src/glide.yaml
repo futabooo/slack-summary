@@ -1,4 +1,0 @@
-package: .
-import:
-- package: github.com/BurntSushi/toml
-- package: github.com/nlopes/slack

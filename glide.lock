@@ -1,0 +1,12 @@
+hash: 95737ab64eb0e5d6d7373ddde544ad4fd5c5997caa61fe8f84068ab0fb60f42a
+updated: 2016-09-26T15:05:57.376990216+09:00
+imports:
+- name: github.com/BurntSushi/toml
+  version: bbd5bb678321a0d6e58f1099321dfa73391c1b6f
+- name: github.com/nlopes/slack
+  version: 3e8aa5655be613e1d4ce0b740993bb734a2b0f7b
+- name: golang.org/x/net
+  version: 7f88271ea9913b72aca44fa7fc8af919eacc17ce
+  subpackages:
+  - websocket
+testImports: []
