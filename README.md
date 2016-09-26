@@ -38,9 +38,9 @@ pass = ""
 Create executable file ＆ execute
 
 ```bash
-$ cd path/to/slack-summary/src
+$ cd path/to/slack-summary
 $ go build
-$ ./src -c path/to/conf.toml
+$ ./slack-summary -c path/to/conf.toml
 ```
 
 ## Install
