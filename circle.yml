@@ -3,4 +3,4 @@ test:
     - go get github.com/golang/lint/golint
     - go get github.com/haya14busa/reviewdog/cmd/reviewdog
   override:
-    - ./reviewdog.sh
+    - chmod +x ./reviewdog.sh
