@@ -1,6 +1,7 @@
 test:
   pre:
+    - go get github.com/golang/lint/golint
     - go get github.com/haya14busa/reviewdog/cmd/reviewdog
   override:
-    - >-
-      go tool vet -all -shadowstrict . 2>&1 | reviewdog -f=govet -ci="circle-ci"
+    - go tool vet -all -shadowstrict . 2>&1 | grep -v ^vendor | reviewdog -f=govet -ci="circle-ci"
+    - go list ./... | grep -v vendor/ | golint | reviewdog -f=golint -ci="circle-ci"
